@@ -1,0 +1,8 @@
+pyproject.toml
+src/simulador_hipotecario/app.py
+src/simulador_hipotecario/calculadora.py
+src/simulador_hipotecario/utils.py
+src/simulador_hipotecario.egg-info/PKG-INFO
+src/simulador_hipotecario.egg-info/SOURCES.txt
+src/simulador_hipotecario.egg-info/dependency_links.txt
+src/simulador_hipotecario.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Simulador Hipotecario",
+            "type": "python",
+            "request": "launch",
+            "module": "simulador_hipotecario.app",
+            "justMyCode": true
+        }
+    ]
+}

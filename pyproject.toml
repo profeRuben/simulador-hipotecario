@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simulador-hipotecario"
+version = "0.1.0"
+description = "Un simulador simple de crédito hipotecario en Python"
+authors = [
+    { name = "Rubén Badilla", email = "ru.badilla@profesor.duoc.cl" }
+]
+requires-python = ">=3.9"
+dependencies = []
