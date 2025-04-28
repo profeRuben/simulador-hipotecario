@@ -1,23 +1,23 @@
 # Simulador de Crédito Hipotecario 🏡
 
-Este proyecto es un simulador simple de crédito hipotecario desarrollado en Python, pensado tanto para propósitos educativos como para ejercicios de análisis de calidad de código.
+Este proyecto es un simulador simple de crédito hipotecario desarrollado en Python. Permite calcular el dividendo mensual y el costo total de un crédito hipotecario basado en el monto solicitado, la tasa de interés anual y el plazo en años.
 
 ## 📚 Descripción
 
-El proyecto permite a los usuarios simular un crédito hipotecario de dos formas:
-- **Simulación en UF**: utilizando un flujo limpio, siguiendo buenas prácticas de programación.
-- **Simulación en Pesos**: utilizando un flujo con errores intencionados, útil para prácticas de detección de problemas mediante herramientas como SonarQube.
+El simulador ofrece dos modalidades:
+- **Simulación en UF**: utilizando una estructura limpia de programación.
+- **Simulación en Pesos**: estructura alternativa para cálculos en moneda nacional.
 
-Los errores intencionados incluyen código duplicado, código muerto y estructuras redundantes, permitiendo realizar análisis de calidad de software.
+El usuario puede seleccionar el tipo de simulación que desea realizar desde un menú interactivo.
 
 ## 📂 Estructura del Proyecto
 
-- `src/simulador_hipotecario/app.py`: Menú principal para seleccionar entre simulación limpia o con errores.
-- `src/simulador_hipotecario/calculadora.py`: Funciones limpias para simulación en UF.
-- `src/simulador_hipotecario/calculadora_pesos.py`: Funciones con errores para simulación en Pesos.
-- `src/simulador_hipotecario/utils.py`: Funciones de utilidades, validaciones y carga de datos UF.
-- `requirements.txt`: Dependencias para desarrollo y testing.
-- `pyproject.toml`: Configuración del proyecto para instalación.
+- `src/simulador_hipotecario/app.py`: Menú principal para seleccionar la modalidad de simulación.
+- `src/simulador_hipotecario/calculadora.py`: Funciones para el cálculo de dividendos en UF.
+- `src/simulador_hipotecario/calculadora_pesos.py`: Funciones para el cálculo de dividendos en Pesos.
+- `src/simulador_hipotecario/utils.py`: Utilidades generales, validaciones de entrada y carga de datos de UF.
+- `requirements.txt`: Dependencias mínimas utilizadas en el proyecto.
+- `pyproject.toml`: Configuración básica del proyecto para instalación opcional.
 
 ## 🚀 Instalación y Configuración
 
