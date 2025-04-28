@@ -1,0 +1,7 @@
+#sqp_b0e6c5a03fb4c635cc77198f13dde36de97fa662
+
+sonar-scanner \
+  -Dsonar.projectKey=simulador_hipotecario \
+  -Dsonar.sources=. \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.token=sqp_b0e6c5a03fb4c635cc77198f13dde36de97fa662

@@ -1,0 +1,6 @@
+projectKey=simulador_hipotecario
+serverUrl=http://localhost:9000
+serverVersion=25.4.0.105899
+dashboardUrl=http://localhost:9000/dashboard?id=simulador_hipotecario
+ceTaskId=934f83c4-74be-4f08-85f6-7b8e29937c00
+ceTaskUrl=http://localhost:9000/api/ce/task?id=934f83c4-74be-4f08-85f6-7b8e29937c00
